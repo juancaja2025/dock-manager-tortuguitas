@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+.env
+.env.*
+!.env.example
+
+# Claves de cuenta de servicio de Google (secretos) — nunca commitear
+Clavegooglecloud.json
+*-service-account*.json
+*credentials*.json
+*clave*.json
+
+.vercel
+server.log
